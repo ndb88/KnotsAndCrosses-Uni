@@ -1,9 +1,9 @@
-public class KnotsAndCrosses {
+public class NoughtsAndCrosses {
 
     private char[][] tiles;
     private char currentPlayerMove;
 
-    public KnotsAndCrosses() {
+    public NoughtsAndCrosses() {
         tiles = new char[3][3];
         currentPlayerMove = 'x';
         initializeTiles();
